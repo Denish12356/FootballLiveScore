@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    background-image: url(football_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.title-box{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.title-box #goals{
+    font-size: 1.8rem;
+}
+
+.team{
+    width: 200px;
+}
+
+.team img{
+    height: 60px;
+    width: 60px;
+}
+
+.matches-table{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.match-tile{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match-tile img{
+    width: 52px;
+    height: 52px;
+}
+
+.match-tile #goals{
+    font-size: 1.1rem;
+}
+
+.match-tile .team{
+    width: 100px;
+}
